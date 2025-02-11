@@ -1,0 +1,1 @@
+gcc  zad4.c -lm -o zad4.exe

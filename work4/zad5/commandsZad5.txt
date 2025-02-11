@@ -1,0 +1,3 @@
+gcc -c math.c -o math.o
+gcc rcs libmath.a math.o
+gcc zad5main.c libmath.a -o executable.exe
