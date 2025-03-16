@@ -111,8 +111,12 @@ int main(){
 
         switch(input){
             case 1: 
-                printf("\nThe average grade is: %.2f", average(grades, gradesCount));
-                printGrades(grades, gradesCount);
+                if(gradesCount != 0){
+                    printf("\nThe average grade is: %.2f", average(grades, gradesCount));
+                    printGrades(grades, gradesCount);
+                } else{
+                    printf("\nThere are no grades to get an average from, try adding a new grade");
+                }
                 break;
             case 2:
                 printf("\nGrades before addition:");
