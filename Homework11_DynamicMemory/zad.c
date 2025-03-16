@@ -134,7 +134,8 @@ int main(){
                 printGrades(grades, gradesCount);
 
                 break;
-            default: break;
+            case 4: break;
+            default: printf("\nInvalid Input"); exit(1); break;
         }
 
 
