@@ -234,6 +234,7 @@ int main(){
                 programIsRunning = 0;
                 break;
             default:
+                printf("\nInvalid Answer");
                 break;
         }
     }
